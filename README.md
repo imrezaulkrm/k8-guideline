@@ -1,0 +1,2 @@
+# K8-Guideline
+K8-Guideline is a comprehensive GitHub repository providing curated insights and best practices for setting up, configuring, and managing Kubernetes (K8s) clusters. Dive into efficient guidelines tailored for users seeking clarity and proficiency in deploying applications on Kubernetes. From fundamental concepts to advanced strategies, this repository serves as a valuable resource for mastering Kubernetes deployment.
