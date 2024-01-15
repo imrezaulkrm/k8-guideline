@@ -98,7 +98,7 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
-## Section 5: Setting Up Networking with Calico
+## Section 5: Setting Up Networking with Calico (Only Master Server)
 #### Install Calico Networking:
 
 Calico is a popular choice for networking and network policy in Kubernetes clusters. Follow these steps to install Calico:
@@ -117,7 +117,7 @@ These commands will deploy the necessary Calico components to your Kubernetes cl
 kubectl get tigerastatus 
 ```
 This will display the status of the Calico components.
-## Section 6: Joining Nodes to the Cluster
+## Section 6: Joining Nodes to the Cluster (Only Worker Server)
 
 #### Join Nodes:
 
